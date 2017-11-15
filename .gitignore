@@ -1,0 +1,209 @@
+# Descargue este archivo usando PowerShell v3 en Windows con el siguiente comando:
+# Invoke-WebRequest https://gist.githubusercontent.com/kmorcinek/2710267/raw/ -OutFile .gitignore
+# o wget:
+# wget --no-check-certificate http://gist.githubusercontent.com/kmorcinek/2710267/raw/.gitignore
+
+# Archivos específicos del usuario
+* .suo
+*.usuario
+* .sln.docstates
+
+# Resultados de compilación
+
+[Dd] ebug /
+[Rr] elease /
+x64 /
+construir/
+[Bb] en /
+[Oo] bj /
+
+# Paquetes NuGet
+* .nupkg
+# La carpeta de paquetes puede ignorarse debido a la restauración del paquete
+** / packages / *
+# excepto build /, que se usa como objetivo de MSBuild.
+! ** / packages / build /
+# Descomprimir si es necesario, pero generalmente se regenerará cuando sea necesario
+#! ** / packages / repositories.config
+
+# Resultados de la prueba MSTest
+[Tt] est [Rr] esult * /
+[Bb] uild [Ll] og. *
+
+* _i.c
+*_ordenador personal
+* .ilk
+*.meta
+* .obj
+* .pch
+* .pdb
+* .pgc
+* .pgd
+* .rsp
+* .sbr
+* .tlb
+* .tli
+* .tlh
+* .tmp
+* .tmp_proj
+*.Iniciar sesión
+* .vspscc
+* .vssscc
+.builds
+* .pidb
+*.Iniciar sesión
+* .scc
+
+# OS generado archivos #
+.DS_Store *
+¿Icono?
+
+# Archivos de caché de Visual C ++
+ipch /
+* .aps
+* .ncb
+* .opensdf
+* .sdf
+* .cachefile
+
+# Visual Studio profiler
+* .psess
+* .vsp
+* .vspx
+
+# Guidance Automation Toolkit
+* .gpState
+
+# ReSharper es un complemento de codificación .NET
+_ReSharper * /
+*. [Rr] e [Ss] harper
+
+# TeamCity es un complemento de compilación
+_TeamCity *
+
+# DotCover es una herramienta de cobertura de código
+* .dotCover
+
+# NCrunch
+* .crunch *
+. * crunch * .local.xml
+
+# Install output folder folder
+[Ee] xpress /
+
+# DocProject es un complemento de generador de documentación
+DocProject / buildhelp /
+DocProject / Help / *. HxT
+DocProject / Help / *. HxC
+DocProject / Help / *. Hhc
+DocProject / Help / *. Hhk
+DocProject / Help / *. Hhp
+DocProject / Help / Html2
+DocProject / Help / html
+
+# Click-Once directory
+publicar/
+
+# Publicar salida web
+* .Publish.xml
+
+# Windows Azure Build Output
+csx
+* .build.csdef
+
+# Directorio de paquetes de la aplicación Windows Store
+AppPackages /
+
+# Otros
+*.Cache
+ClientBin /
+[Ss] tyle [Cc] op. *
+~ $ *
+* ~
+* .dbmdl
+*. [Pp] ublish.xml
+* .pfx
+* .publishsettings
+modulesbin /
+tempbin /
+
+# EPiServer Site file (VPP)
+Datos de aplicación/
+
+# Proyectos RIA / Silverlight
+Código_generado /
+
+# Respaldar e informar archivos desde la conversión de un archivo de proyecto anterior a uno más nuevo
+# Visual Studio versión. Los archivos de respaldo no son necesarios, porque tenemos git ;-)
+_UpgradeReport_Files /
+Apoyo*/
+UpgradeLog * .XML
+UpgradeLog * .htm
+
+# vim
+* .txt ~
+* .swp
+* .wo
+ 
+# svn
+.svn
+
+# Restos de conflictos de resolución en el control de código fuente
+* .orig
+
+# Archivos de SQL Server
+** / App_Data / *. Mdf
+** / App_Data / *. Ldf
+** / App_Data / *. Sdf
+
+
+#LightSwitch generó archivos
+GeneratedArtifacts /
+_Pvt_Extensions /
+ModelManifest.xml
+
+# ======================
+# Windows detritus
+# ======================
+
+# Cachés de archivos de imagen de Windows
+Thumbs.db
+ehthumbs.db
+
+# Archivo de configuración de carpeta
+Desktop.ini
+
+# Papelera de reciclaje utilizada en archivos compartidos
+$ RECYCLE.BIN /
+
+# Mac archivos de la tienda de servicio de escritorio
+.DS_Store
+
+# SASS Caché del compilador
+.sass-cache
+
+# Visual Studio 2014 CTP
+** / *. sln.ide
+
+# Visual Studio temp algo
+.vs /
+
+# VS 2015+
+* .vc.vc.opendb
+* .vc.db
+
+# Rider
+.idea/
+
+# Carpeta de salida utilizada por Webpack u otras cosas de FE
+** / node_modules / *
+** / wwwroot / *
+
+# SpecFlow específico
+* .feature.cs
+* .feature.xlsx. *
+* .Specs _ *. Html
+
+#####
+# Fin de la lista de ignorar el núcleo, a continuación le ponemos configuraciones personalizadas 'por proyecto' (patrones o ruta)
+#####
